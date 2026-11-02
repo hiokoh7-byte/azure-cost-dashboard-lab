@@ -1,0 +1,93 @@
+# ==========================================
+# Terraform & Infrastructure as Code (IaC)
+# ==========================================
+# Local .terraform directories
+**/.terraform/
+
+# Terraform state files & backups (May contain secrets)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+
+# Terraform variable override files (Keep local credentials private)
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# CLI configuration & plan outputs
+*.tfplan
+
+# ==========================================
+# Azure & Cloud CLI
+# ==========================================
+# Local Azure CLI caches & session state
+.azure/
+azurerm_*.log
+
+# ==========================================
+# PowerShell & Operating System
+# ==========================================
+# PowerShell transcript & debug logs
+*.log
+*.clixml
+
+# Windows system files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ==========================================
+# Editors & IDEs
+# ==========================================
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains / Visual Studio / Vim
+.idea/
+*.suo
+*.user
+*.swp
+*~
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.cer
+
+# ==========================================
+# Video Editing & Media Assets (Loom / Demos)
+# ==========================================
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.screenflow
+*.prproj
